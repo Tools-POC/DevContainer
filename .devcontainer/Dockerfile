@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update
-RUN apt-get install vim sudo curl -y
+RUN apt-get install vim sudo curl git -y
 
 # Added for testing 
 RUN apt-get install git -y

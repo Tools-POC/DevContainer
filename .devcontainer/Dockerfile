@@ -3,6 +3,9 @@ FROM ubuntu
 RUN apt-get update
 RUN apt-get install vim sudo curl -y
 
+# Added for testing 
+RUN apt-get install git -y
+
 RUN useradd -m -s /bin/bash -G sudo coder
 USER coder
 
